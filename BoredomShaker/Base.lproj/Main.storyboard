@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Ffx-K5-yFs">
-                                <rect key="frame" x="16.5" y="141.5" width="342.5" height="384"/>
+                                <rect key="frame" x="17" y="150" width="342.5" height="367"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="g8y-Yb-UMj">
                                         <rect key="frame" x="0.0" y="0.0" width="342.5" height="62"/>
@@ -38,14 +38,14 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHAKE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-z1-2nJ">
-                                        <rect key="frame" x="59" y="122" width="225" height="81"/>
-                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHAKE ME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-z1-2nJ">
+                                        <rect key="frame" x="36.5" y="122" width="269.5" height="64"/>
+                                        <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="55"/>
                                         <color key="textColor" red="0.1333333333" green="0.47058823529999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VWu-Ju-DQb">
-                                        <rect key="frame" x="99.5" y="263" width="143.5" height="121"/>
+                                        <rect key="frame" x="99.5" y="246" width="143.5" height="121"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idea One" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oui-Ir-dXq">
                                                 <rect key="frame" x="12.5" y="0.0" width="118.5" height="35"/>
@@ -69,9 +69,16 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDEAS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFh-a0-fd0">
+                                <rect key="frame" x="102.5" y="36" width="170.5" height="69.5"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="60"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.74901960784313726" green="0.74901960784313726" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.91560046361771186" green="0.92466581474263965" blue="0.92466581474263965" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="oFh-a0-fd0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bpl-xR-VhN"/>
+                            <constraint firstItem="oFh-a0-fd0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Lam-YM-Mdw"/>
                             <constraint firstItem="Ffx-K5-yFs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fgv-qb-ZuX"/>
                             <constraint firstItem="Ffx-K5-yFs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kky-j6-X1Q"/>
                         </constraints>

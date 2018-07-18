@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ideas</key>
+	<array>
+		<string>batman</string>
+		<string>robin</string>
+		<string>joker</string>
+		<string>spaceship</string>
+		<string>rocket</string>
+		<string>hamburger</string>
+		<string>cookie</string>
+		<string>hot dog</string>
+		<string>snowman</string>
+		<string>christmas tree</string>
+	</array>
+</dict>
+</plist>
