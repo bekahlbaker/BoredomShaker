@@ -7,13 +7,94 @@
 		<string>batman</string>
 		<string>robin</string>
 		<string>joker</string>
-		<string>spaceship</string>
-		<string>rocket</string>
-		<string>hamburger</string>
+		<string>batgirl</string>
+		<string>supergirl</string>
+		<string>wonder woman</string>
+		<string>cyborg</string>
+		<string>superman</string>
+		<string>beast boy</string>
+		<string>aquaman</string>
+		<string>green lantern</string>
+		<string>catwoman</string>
+		<string>starfire</string>
+		<string>flash</string>
+		<string>green arrow</string>
+		<string>poison ivy</string>
+		<string>ant-man</string>
+		<string>black panther</string>
+		<string>captain america</string>
+		<string>doctor stranger</string>
+		<string>falcon</string>
+		<string>groot</string>
+		<string>hawkeye</string>
+		<string>hulk</string>
+		<string>ironman</string>
+		<string>loki</string>
+		<string>mantis</string>
+		<string>nebula</string>
+		<string>rocket raccoon</string>
+		<string>spider-man</string>
+		<string>star-lord</string>
+		<string>nick fury</string>
+		<string>black widow</string>
+		<string>thanos</string>
+		<string>thor</string>
+		<string>ultron</string>
+		<string>the vision</string>
+		<string>war machine</string>
+		<string>raven</string>
+		<string>birthday cake</string>
+		<string>ice cream</string>
 		<string>cookie</string>
 		<string>hot dog</string>
+		<string>hamburger</string>
+		<string>chicken nuggets</string>
+		<string>popsicle</string>
+		<string>dog</string>
+		<string>cat</string>
+		<string>horse</string>
+		<string>turtle</string>
+		<string>alligator</string>
+		<string>baboon</string>
+		<string>bear</string>
+		<string>duck</string>
+		<string>snake</string>
+		<string>hamster</string>
+		<string>pig</string>
+		<string>camel</string>
+		<string>goat</string>
+		<string>cow</string>
+		<string>zebra</string>
+		<string>shark</string>
+		<string>hippo</string>
+		<string>rabbit</string>
+		<string>lion</string>
+		<string>tiger</string>
+		<string>penguin</string>
+		<string>roller coaster</string>
+		<string>ferris wheel</string>
+		<string>swings</string>
+		<string>playground</string>
+		<string>splash park</string>
+		<string>waterpark</string>
+		<string>chuck e cheese</string>
+		<string>bounce house</string>
+		<string>santa claus</string>
+		<string>tooth fairy</string>
+		<string>easter bunny</string>
+		<string>halloween costume</string>
 		<string>snowman</string>
 		<string>christmas tree</string>
+		<string>elf</string>
+		<string>presents</string>
+		<string>christmas cookies</string>
+		<string>jack o lantern</string>
+		<string>fireworks</string>
+		<string>easter eggs</string>
+		<string>birthday</string>
+		<string>valentine</string>
+		<string>farm</string>
+		<string>rodeo</string>
 	</array>
 </dict>
 </plist>

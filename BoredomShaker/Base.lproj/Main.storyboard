@@ -38,29 +38,29 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHAKE ME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-z1-2nJ">
-                                        <rect key="frame" x="36.5" y="122" width="269.5" height="64"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-z1-2nJ">
+                                        <rect key="frame" x="164" y="122" width="14.5" height="64"/>
                                         <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="55"/>
                                         <color key="textColor" red="0.1333333333" green="0.47058823529999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VWu-Ju-DQb">
-                                        <rect key="frame" x="99.5" y="246" width="143.5" height="121"/>
+                                        <rect key="frame" x="167.5" y="246" width="8" height="121"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idea One" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oui-Ir-dXq">
-                                                <rect key="frame" x="12.5" y="0.0" width="118.5" height="35"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oui-Ir-dXq">
+                                                <rect key="frame" x="0.0" y="0.0" width="8" height="35"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
                                                 <color key="textColor" red="0.97647058823529409" green="0.59256440206290839" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idea Two" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lst-hU-RQT">
-                                                <rect key="frame" x="11.5" y="43" width="120.5" height="35"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lst-hU-RQT">
+                                                <rect key="frame" x="0.0" y="43" width="8" height="35"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
                                                 <color key="textColor" red="0.99607843139999996" green="0.30980392159999998" blue="0.014251429711111128" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idea Three" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdU-Vm-3ot">
-                                                <rect key="frame" x="0.0" y="86" width="143.5" height="35"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdU-Vm-3ot">
+                                                <rect key="frame" x="0.0" y="86" width="8" height="35"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
                                                 <color key="textColor" red="0.81176470588235294" green="0.0" blue="0.058823529411764705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>

@@ -16,7 +16,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var ideaTwoLabel: UILabel!
     @IBOutlet weak var ideaThreeLabel: UILabel!
     
-    var shakeCount = 1
+    var shakeCount = 0
     let dateFormatter = DateFormatter()
     
     var suggestions = [String]()
@@ -26,6 +26,9 @@ class MainViewController: UIViewController {
         self.becomeFirstResponder()
         
         self.checkIfUserCanShakeToday()
+        
+//        UserDefaults.standard.removeObject(forKey: "LastTimeUserShookThreeTimes")
+//        UserDefaults.standard.synchronize()
     }
 
     override var canBecomeFirstResponder: Bool {
@@ -36,6 +39,7 @@ class MainViewController: UIViewController {
 
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
+            shakeCount += 1
             switch shakeCount {
             case 1, 2, 3:
                 generateSuggestions()
@@ -49,7 +53,7 @@ class MainViewController: UIViewController {
                 UserDefaults.standard.synchronize()
             default: return
             }
-            shakeCount += 1
+
         }
     }
     
@@ -61,7 +65,8 @@ class MainViewController: UIViewController {
     }
     
     private func setupShakeUI() {
-        shakeCount = 1
+        shakeCount = 0
+        shakeLabel.text = "SHAKE ME"
         outOfIdeasStackView.alpha = 0
         ideaOneLabel.alpha = 0
         ideaTwoLabel.alpha = 0
@@ -110,6 +115,9 @@ class MainViewController: UIViewController {
 //              Force SetupShakeUI() For Testing
 //                setupShakeUI()
             }
+        } else {
+            print("Couldn't get date")
+            setupShakeUI()
         }
     }
     
@@ -155,6 +163,12 @@ class MainViewController: UIViewController {
             }
         } else {
             print("No altered ideas yet")
+            let pList = Bundle.main.path(forResource: "Suggestions", ofType: "plist")
+            guard let content = NSDictionary(contentsOfFile: pList!) as? [String:[String]] else {
+                fatalError()
+            }
+            guard let ideas = content["Ideas"] else { fatalError() }
+            suggestions = ideas
         }
     }
 }
