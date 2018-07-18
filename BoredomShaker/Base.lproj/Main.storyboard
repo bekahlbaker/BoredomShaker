@@ -19,19 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Ffx-K5-yFs">
-                                <rect key="frame" x="25.5" y="141.5" width="324.5" height="384"/>
+                                <rect key="frame" x="16.5" y="141.5" width="342.5" height="384"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="g8y-Yb-UMj">
-                                        <rect key="frame" x="0.0" y="0.0" width="324.5" height="62"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="342.5" height="62"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're out of ideas for today." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCJ-C0-gm2">
-                                                <rect key="frame" x="0.0" y="0.0" width="324.5" height="29"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You're out of shakes for today." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uCJ-C0-gm2">
+                                                <rect key="frame" x="0.0" y="0.0" width="342.5" height="29"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
                                                 <color key="textColor" red="0.0" green="0.56851096561944447" blue="0.39832899308888892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try again tomorrow." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF0-Uu-R8G">
-                                                <rect key="frame" x="47" y="33" width="231" height="29"/>
+                                                <rect key="frame" x="56" y="33" width="231" height="29"/>
                                                 <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
                                                 <color key="textColor" red="0.0" green="0.56851096561944447" blue="0.39832899308888892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -39,13 +39,13 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHAKE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-z1-2nJ">
-                                        <rect key="frame" x="50" y="122" width="225" height="81"/>
+                                        <rect key="frame" x="59" y="122" width="225" height="81"/>
                                         <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="70"/>
                                         <color key="textColor" red="0.1333333333" green="0.47058823529999999" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VWu-Ju-DQb">
-                                        <rect key="frame" x="90.5" y="263" width="143.5" height="121"/>
+                                        <rect key="frame" x="99.5" y="263" width="143.5" height="121"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idea One" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oui-Ir-dXq">
                                                 <rect key="frame" x="12.5" y="0.0" width="118.5" height="35"/>
@@ -77,6 +77,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ideaOneLabel" destination="Oui-Ir-dXq" id="AkX-80-Mme"/>
+                        <outlet property="ideaThreeLabel" destination="QdU-Vm-3ot" id="eQ5-cn-8BP"/>
+                        <outlet property="ideaTwoLabel" destination="lst-hU-RQT" id="4YQ-CL-gTD"/>
+                        <outlet property="outOfIdeasStackView" destination="g8y-Yb-UMj" id="sPM-D9-MTs"/>
+                        <outlet property="shakeLabel" destination="0Zt-z1-2nJ" id="mcG-2c-ysZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
