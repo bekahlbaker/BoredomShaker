@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		27B4128620FF7BAB00C5A108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4128520FF7BAB00C5A108 /* AppDelegate.swift */; };
-		27B4128820FF7BAB00C5A108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4128720FF7BAB00C5A108 /* ViewController.swift */; };
 		27B4128B20FF7BAB00C5A108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B4128920FF7BAB00C5A108 /* Main.storyboard */; };
 		27B4128E20FF7BAB00C5A108 /* BoredomShaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27B4128C20FF7BAB00C5A108 /* BoredomShaker.xcdatamodeld */; };
 		27B4129020FF7BAE00C5A108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B4128F20FF7BAE00C5A108 /* Assets.xcassets */; };
 		27B4129320FF7BAE00C5A108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B4129120FF7BAE00C5A108 /* LaunchScreen.storyboard */; };
 		27B4129E20FF7BAE00C5A108 /* BoredomShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4129D20FF7BAE00C5A108 /* BoredomShakerTests.swift */; };
+		27B412A920FF7C5300C5A108 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B412A820FF7C5300C5A108 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		27B4128220FF7BAB00C5A108 /* BoredomShaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoredomShaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B4128520FF7BAB00C5A108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27B4128720FF7BAB00C5A108 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27B4128A20FF7BAB00C5A108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27B4128D20FF7BAB00C5A108 /* BoredomShaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoredomShaker.xcdatamodel; sourceTree = "<group>"; };
 		27B4128F20FF7BAE00C5A108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		27B4129920FF7BAE00C5A108 /* BoredomShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoredomShakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B4129D20FF7BAE00C5A108 /* BoredomShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredomShakerTests.swift; sourceTree = "<group>"; };
 		27B4129F20FF7BAE00C5A108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B412A820FF7C5300C5A108 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				27B4128520FF7BAB00C5A108 /* AppDelegate.swift */,
-				27B4128720FF7BAB00C5A108 /* ViewController.swift */,
+				27B412A820FF7C5300C5A108 /* MainViewController.swift */,
 				27B4128920FF7BAB00C5A108 /* Main.storyboard */,
 				27B4128F20FF7BAE00C5A108 /* Assets.xcassets */,
 				27B4129120FF7BAE00C5A108 /* LaunchScreen.storyboard */,
@@ -200,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27B4128820FF7BAB00C5A108 /* ViewController.swift in Sources */,
+				27B412A920FF7C5300C5A108 /* MainViewController.swift in Sources */,
 				27B4128620FF7BAB00C5A108 /* AppDelegate.swift in Sources */,
 				27B4128E20FF7BAB00C5A108 /* BoredomShaker.xcdatamodeld in Sources */,
 			);
